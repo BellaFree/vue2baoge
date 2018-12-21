@@ -21,9 +21,9 @@ export default {
     }
   },
   mounted() {
-    const os = browser()
-    this.isNav = (!os.isApp && !os.isWeixin)
-    console.log(os.isApp, os.isWeixin)
+    // const os = browser()
+    // this.isNav = (!os.isApp && !os.isWeixin)
+    // console.log(os.isApp, os.isWeixin)
   }
 }
 </script>
